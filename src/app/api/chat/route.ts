@@ -37,7 +37,7 @@ export async function POST ( req: Request )
         } );      
 
         const systemMessage: ChatCompletionMessage = {
-            role: "system",
+            role: "assistant",
             content:
                 "You are an intelligent note-taking app. You answer the user's question based on their existing notes from the data stored. Kindly politely reject anything else out of teh context is asked by the user. " +
                 "The relevant notes for this query are:\n" +
