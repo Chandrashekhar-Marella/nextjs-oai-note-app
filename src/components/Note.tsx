@@ -29,13 +29,13 @@ const Note = ( { note }: NoteProps ) =>
                 onClick={ () => setShowEditDialog( true ) }
                 className="cursor-pointer transition-shadow hover:shadow-lg">
                 <CardHeader>
-                    <CardTitle>{ note.title }</CardTitle>
+                    <CardTitle className={ "lg:max-w-screen-lg overflow-y-scroll max-h-screen ml-2 mr-2 mb-2 pb-3" }>{ note.title }</CardTitle>
                     <CardDescription>
                         { createdUpdatedAtTimestamp }
                         { wasUpdated && " (updated)" }
                     </CardDescription>
                 </CardHeader>
-                <CardContent>
+                <CardContent className={"lg:max-w-screen-lg overflow-y-scroll max-h-screen ml-2 mr-2"}>
                     <p className="whitespace-pre-line">
                         { note.content }
                     </p>
