@@ -18,11 +18,11 @@ export default function Home ()
       <div className="flex items-center gap-4">
         <Image
           src={ logo }
-          alt="AI Brain Logo"
+          alt="AI Notes Logo"
           width={ 100 }
           height={ 100 }
         />
-        <span className="font-extrabold tracking-tight text-4xl lg:text-5xl">AI Brain</span>
+        <span className="font-extrabold tracking-tight text-4xl lg:text-5xl">AI Notes</span>
       </div>
 
       <p className='max-w-prose text-center '>

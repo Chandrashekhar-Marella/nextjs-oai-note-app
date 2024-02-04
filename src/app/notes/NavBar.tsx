@@ -36,7 +36,7 @@ const NavBar = () =>
                             width={ 40 }
                             height={ 40 }
                         />
-                        <span className="font-bold">AI Brain</span>
+                        <span className="font-bold">AI Notes</span>
                     </Link>
 
                     <div className="flex items-center gap-2">
